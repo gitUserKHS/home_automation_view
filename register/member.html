@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원 가입 페이지</title>
+</head>
+<body>
+    <h3>회원 가입</h3>
+    <form method="post" action="http://서버주소:서버포트/register/member/sign_up">
+        회원 ID 입력: <input type="text" id="id" name="id"> <br>
+        비밀번호 입력: <input type="password" id="pwd" name="password"> <br>
+        비밀번호 재입력: <input type="password" id="pwd2" name="password-again"> 
+        <button>확인</button>
+    </form>
+    <script>
+        const form = document.querySelector('form');
+        const id = form.querySelector('#id');
+        const password = form.querySelector('#pwd');
+        const passwordAgain = form.querySelector('#pwd2');
+        const inputs = form.querySelectorAll('input');
+
+        form.addEventListener('submit', (event)=>{
+            let submitAllowed = true;
+            debugger;
+            for(const input of inputs){
+                if(input.value === ""){
+                    submitAllowed = false;
+                    alert('입력칸이 비어있습니다.');
+                    break;
+                }
+            }
+
+            if(password.value.trim() !== passwordAgain.value.trim()){
+                alert('비밀번호와 다시 입력된 비밀번호가 일치하지 않습니다.');
+                submitAllowed = false;
+            }
+            
+            if(!submitAllowed) event.preventDefault();
+        });
+    </script>
+</body>
+</html>
