@@ -1,11 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="full-scale">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>기기 등록</title>
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/form_page.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+        crossorigin="anonymous"></script>   
+    <style>
+        input.form-input{
+            font-size: 25px;
+        }
+    </style>
 </head>
-<body>
+<body class="full-scale">
+    <nav id="navbar">
+        <!--createNavBar.js로 삽입 -->
+    </nav>
+    <main class="full-scale">
+        <div class="container" style="width: 30%; text-align: center;">
+            <h1 class="h1">기기등록</h1>
+            <!-- <form method="post" action="http://서버주소:서버포트/login"> -->
+            <form method="get" action="../main_page.html" class="row">
+                <div class="form-group row">
+                    <div style="text-align: left;">제품 이름</div>
+                    <input class="form-input" type="text" id="deviceName" name="deviceName"> 
+                </div>
+                <div class="form-group row">
+                    <div style="text-align: left;">제품 번호</div>
+                    <input class="form-input" type="text" id="deviceNum" name="deviceNum">
+                </div>
+            </form>
     
+            <div class="row">
+                <div class="col-6">
+                    <!-- <button class="btn btn-primary" onclick="">로그인</button> -->
+                    <button class="btn btn-primary round" 
+                        onclick="location.href='../main_page.html'">취소</button>
+                </div>  
+                <div class="col-6">
+                    <!-- <button class="btn btn-primary" onclick="location.href='http://서버주소:서버포트/register/member'">회원가입</button> -->
+                    <button class="btn btn-primary submit round">제품 등록</button>
+                </div>
+            </div>
+    
+        </div>
+    </main>
+
+    <script src="../js/validation.js">
+    </script>
+    <script src="../js/createNavBar.js">
+    </script>
+    <script src="../bootstrap/bootstrap.min.js"></script>
 </body>
 </html>

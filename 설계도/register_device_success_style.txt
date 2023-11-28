@@ -1,0 +1,13 @@
+<div style="width: 100%; height: 100%; position: relative; background: white">
+    <div style="width: 1066px; height: 474px; left: 464px; top: 305px; position: absolute; background: #677B7B; border-radius: 30px"></div>
+    <div style="left: 699px; top: 451px; position: absolute; color: white; font-size: 150px; font-family: Inter; font-weight: 400; word-wrap: break-word">등록 완료</div>
+</div>
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+// 등록 완료
+color: white;
+font-size: 150px;
+font-family: Inter;
+font-weight: 400;
+word-wrap: break-word

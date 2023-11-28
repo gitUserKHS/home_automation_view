@@ -1,0 +1,42 @@
+<div style="width: 100%; height: 100%; position: relative; background: white">
+    <div style="width: 618px; height: 146px; left: 651px; top: 238px; position: absolute; background: #CDCCCC; border-radius: 30px"></div>
+    <div style="left: 930px; top: 275px; position: absolute; color: #9A8686; font-size: 60px; font-family: Inter; font-weight: 400; word-wrap: break-word">ID</div>
+    <div style="width: 618px; height: 146px; left: 651px; top: 427px; position: absolute; background: #CDCCCC; border-radius: 30px"></div>
+    <div style="left: 819px; top: 464px; position: absolute; color: #9A8686; font-size: 60px; font-family: Inter; font-weight: 400; word-wrap: break-word">PassWord</div>
+    <div style="width: 280px; height: 100px; left: 651px; top: 652px; position: absolute; background: #677B7B; border-radius: 30px"></div>
+    <div style="left: 708px; top: 666px; position: absolute; color: black; font-size: 60px; font-family: Inter; font-weight: 400; word-wrap: break-word">로그인</div>
+    <div style="width: 280px; height: 100px; left: 989px; top: 653px; position: absolute; background: #677B7B; border-radius: 30px"></div>
+    <div style="left: 1018px; top: 659px; position: absolute; color: black; font-size: 60px; font-family: Inter; font-weight: 400; word-wrap: break-word">회원가입</div>
+</div>
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+// ID
+color: #9A8686;
+ font-size: 60px;
+ font-family: Inter;
+ font-weight: 400;
+ word-wrap: break-word
+---
+// PassWord
+color: #9A8686;
+ font-size: 60px;
+ font-family: Inter;
+ font-weight: 400;
+ word-wrap: break-word
+---
+// 로그인
+color: black;
+ font-size: 60px;
+ font-family: Inter;
+ font-weight: 400;
+ word-wrap: break-word
+---
+// 회원가입
+color: black;
+ font-size: 60px;
+ font-family: Inter;
+ font-weight: 400;
+ word-wrap: break-word

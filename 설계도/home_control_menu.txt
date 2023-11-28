@@ -1,0 +1,125 @@
+<div style="width: 100%; height: 100%; position: relative; background: white">
+    <div style="width: 1012px; height: 357px; left: 454px; top: 472px; position: absolute; background: #677B7B; border-radius: 30px"></div>
+    <div style="width: 79px; height: 38px; left: 960px; top: 354px; position: absolute; background: #D9D9D9; border-radius: 50px"></div>
+    <div style="width: 232px; height: 202px; left: 1184px; top: 222px; position: absolute; background: #ACA2B5; border-radius: 50px"></div>
+    <div style="width: 232px; height: 202px; left: 844px; top: 222px; position: absolute; background: #ACA2B5; border-radius: 50px"></div>
+    <div style="left: 891px; top: 353px; position: absolute; color: white; font-size: 30px; font-family: Inter; font-weight: 400; word-wrap: break-word">온도</div>
+    <div style="left: 1237px; top: 354px; position: absolute; color: white; font-size: 30px; font-family: Inter; font-weight: 400; word-wrap: break-word">온도</div>
+    <div style="width: 79px; height: 38px; left: 960px; top: 354px; position: absolute; background: #D9D9D9; border-radius: 50px"></div>
+    <div style="left: 492px; top: 142px; position: absolute; color: white; font-size: 40px; font-family: Inter; font-weight: 400; word-wrap: break-word">안양 스마트 홈</div>
+    <div style="width: 232px; height: 202px; left: 504px; top: 222px; position: absolute; background: #ACA2B5; border-radius: 50px"></div>
+    <div style="width: 68px; height: 78px; left: 580px; top: 255px; position: absolute"><span style="color: black; font-size: 70px; font-family: Inter; font-weight: 400; word-wrap: break-word">☀</span><span style="color: black; font-size: 40px; font-family: Inter; font-weight: 400; word-wrap: break-word">️</span></div>
+    <div style="width: 67px; height: 74px; left: 919px; top: 259px; position: absolute; color: black; font-size: 80px; font-family: Inter; font-weight: 400; word-wrap: break-word">💧</div>
+    <div style="left: 1260px; top: 254px; position: absolute; color: black; font-size: 80px; font-family: Inter; font-weight: 400; word-wrap: break-word">🔌</div>
+    <div style="left: 552px; top: 353px; position: absolute; color: white; font-size: 30px; font-family: Inter; font-weight: 400; word-wrap: break-word">온도</div>
+    <div style="width: 79px; height: 38px; left: 620px; top: 352px; position: absolute; background: #D9D9D9; border-radius: 50px"></div>
+    <div style="width: 79px; height: 38px; left: 1315px; top: 354px; position: absolute; background: #D9D9D9; border-radius: 50px"></div>
+    <div style="width: 250px; height: 250px; left: 483px; top: 754px; position: absolute; background: #677B7B; border-radius: 30px"></div>
+    <div style="left: 516px; top: 655px; position: absolute; color: white; font-size: 50px; font-family: Inter; font-weight: 400; word-wrap: break-word">외출</div>
+    <div style="width: 250px; height: 250px; left: 844px; top: 754px; position: absolute; background: #677B7B; border-radius: 30px"></div>
+    <div style="width: 80px; height: 80px; left: 986px; top: 558px; position: absolute; background: #D9D9D9; border-radius: 100px"></div>
+    <div style="width: 250px; height: 250px; left: 483px; top: 1056px; position: absolute; background: #677B7B; border-radius: 30px"></div>
+    <div style="width: 250px; height: 250px; left: 1190px; top: 1056px; position: absolute; background: #677B7B; border-radius: 30px"></div>
+    <div style="width: 250px; height: 250px; left: 844px; top: 1056px; position: absolute; background: #677B7B; border-radius: 30px"></div>
+    <div style="width: 250px; height: 250px; left: 1184px; top: 754px; position: absolute; background: #677B7B; border-radius: 30px"></div>
+    <div style="left: 1223px; top: 655px; position: absolute; color: white; font-size: 50px; font-family: Inter; font-weight: 400; word-wrap: break-word">난방</div>
+    <div style="left: 512px; top: 964px; position: absolute; color: white; font-size: 50px; font-family: Inter; font-weight: 400; word-wrap: break-word">전원</div>
+    <div style="left: 512px; top: 555px; position: absolute; color: white; font-size: 80px; font-family: Inter; font-weight: 400; word-wrap: break-word">🚪</div>
+    <div style="width: 80px; height: 80px; left: 620px; top: 558px; position: absolute; background: #D9D9D9; border-radius: 100px"></div>
+    <div style="width: 80px; height: 80px; left: 1340px; top: 558px; position: absolute; background: #D9D9D9; border-radius: 100px"></div>
+    <div style="width: 80px; height: 80px; left: 619px; top: 868px; position: absolute; background: #D9D9D9; border-radius: 100px"></div>
+    <div style="left: 877px; top: 655px; position: absolute; color: white; font-size: 50px; font-family: Inter; font-weight: 400; word-wrap: break-word">환기</div>
+</div>
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+// 온도
+color: white;
+ font-size: 30px;
+ font-family: Inter;
+ font-weight: 400;
+ word-wrap: break-word
+---
+// 온도
+color: white;
+ font-size: 30px;
+ font-family: Inter;
+ font-weight: 400;
+ word-wrap: break-word
+---
+// 안양 스마트 홈
+color: white;
+ font-size: 40px;
+ font-family: Inter;
+ font-weight: 400;
+ word-wrap: break-word
+---
+// ☀
+color: black;
+ font-size: 70px;
+ font-family: Inter;
+ font-weight: 400;
+ word-wrap: break-word
+---
+// ️
+color: black;
+ font-size: 40px;
+ font-family: Inter;
+ font-weight: 400;
+ word-wrap: break-word
+---
+// 💧
+color: black;
+ font-size: 80px;
+ font-family: Inter;
+ font-weight: 400;
+ word-wrap: break-word
+---
+// 🔌
+color: black;
+ font-size: 80px;
+ font-family: Inter;
+ font-weight: 400;
+ word-wrap: break-word
+---
+// 온도
+color: white;
+ font-size: 30px;
+ font-family: Inter;
+ font-weight: 400;
+ word-wrap: break-word
+---
+// 외출
+color: white;
+ font-size: 50px;
+ font-family: Inter;
+ font-weight: 400;
+ word-wrap: break-word
+---
+// 난방
+color: white;
+ font-size: 50px;
+ font-family: Inter;
+ font-weight: 400;
+ word-wrap: break-word
+---
+// 전원
+color: white;
+ font-size: 50px;
+ font-family: Inter;
+ font-weight: 400;
+ word-wrap: break-word
+---
+// 🚪
+color: white;
+ font-size: 80px;
+ font-family: Inter;
+ font-weight: 400;
+ word-wrap: break-word
+---
+// 환기
+color: white;
+ font-size: 50px;
+ font-family: Inter;
+ font-weight: 400;
+ word-wrap: break-word

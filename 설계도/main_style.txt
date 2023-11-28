@@ -1,0 +1,22 @@
+<div style="width: 100%; height: 100%; position: relative; background: white">
+    <div style="width: 796px; height: 98px; left: 562px; top: 404px; position: absolute; background: #677B7B; border-radius: 30px"></div>
+    <div style="width: 796px; height: 98px; left: 562px; top: 542px; position: absolute; background: #677B7B; border-radius: 30px"></div>
+    <div style="left: 777px; top: 318px; position: absolute; color: white; font-size: 60px; font-family: Inter; font-weight: 400; word-wrap: break-word">가전 제품 확인</div>
+    <div style="left: 777px; top: 456px; position: absolute; color: white; font-size: 60px; font-family: Inter; font-weight: 400; word-wrap: break-word">가전 제품 등록</div>
+</div>
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+// 가전 제품 확인
+color: white;
+ font-size: 60px;
+ font-family: Inter;
+ font-weight: 400;
+ word-wrap: break-word
+---
+// 가전 제품 등록
+color: white;
+ font-size: 60px;
+ font-family: Inter;
+ font-weight: 400;
+ word-wrap: break-word
