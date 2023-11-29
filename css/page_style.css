@@ -45,3 +45,29 @@ button.round{
 
     white-space: nowrap;
 } 
+
+div.row.bg-primary.rounded{
+    border-radius: 20px !important;
+    background-color: rgb(20, 175, 124) !important;
+}
+
+div.row.card-container > div{
+    display: flex;
+    justify-content:center; 
+    align-items : center;
+    padding: 5px;
+}
+
+div.row.card-container div.card{
+    width: 50%;
+    border-radius: 20px !important;
+}
+
+div.row.card-container div.card > div.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items : center;
+    justify-content: center;
+    color:black;
+}
+
