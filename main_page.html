@@ -1,19 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="full-scale">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>메인 페이지</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/page_style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+        crossorigin="anonymous"></script>
     <style>
         
     </style>
 </head>
-<body>
-    <h3>메인 화면</h3>
-    
-    <div>
-        <a href="http://서버주소:서버포트/register/member">회원 가입</a>
-        <a href="http://서버주소:서버포트/register/device">기기 등록</a>
-    </div>
+<body class="full-scale">
+    <nav id="navbar">
+        <!--createNavBar.js로 삽입 -->
+    </nav>
+    <main class="full-scale">6
+        <div class="container" style="width: 30%; text-align: center;">
+            <h1 class="h1">메인페이지</h1>
+            <div class="row">
+                <!-- <button class="btn btn-primary" onclick="">로그인</button> -->
+                <button class="btn btn-primary round"
+                    onclick="location.href='./device_control.html'">가전 제품 확인</button>
+            </div>  
+            <div class="row">
+                <!-- <button class="btn btn-primary" onclick="location.href='http://서버주소:서버포트/register/member'">회원가입</button> -->
+                <button class="btn btn-primary round"
+                    onclick="location.href='./register/device.html'">가전 제품 등록</button>
+            </div>
+        </div>
+        </main>
+
+    <script src="bootstrap/bootstrap.min.js">
+    </script>
+    <script src="js/createNavBar.js">
+    </script>   
+    <script>
+        appendNav(navOption.MAIN);
+    </script>
 </body>
 </html>

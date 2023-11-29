@@ -13,6 +13,14 @@ main{
     align-items: center;
 }
 
+nav#navbar a.nav-item{
+    background-color: black;
+    border-style: solid;
+    border-color: white;
+    border-radius: 3px;
+    padding: 5px
+}
+
 input.form-input{
     text-align: center;
     background-color: rgb(224, 228, 231); 
@@ -34,4 +42,6 @@ button.round{
     font-size: 25px; 
     font-family: Inter;
     border-radius: 20px;
+
+    white-space: nowrap;
 } 

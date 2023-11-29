@@ -1,6 +1,7 @@
 const form = document.querySelector('form.row');
 const btn = document.querySelector('button.submit');
 const inputs = form.querySelectorAll('input');
+var displaySuccessMessage = null;
 
 btn.addEventListener('click',()=>{
     let submitAllowed = true;
@@ -16,5 +17,8 @@ btn.addEventListener('click',()=>{
             break;
         }
     }
-    if(submitAllowed) form.submit();
+    if(submitAllowed) {
+        if(displaySuccessMessage) displaySuccessMessage();
+        form.submit();
+    }
 });

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>로그인 페이지</title>
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="css/form_page.css">
+    <link rel="stylesheet" href="css/page_style.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
         crossorigin="anonymous"></script>   
@@ -18,7 +18,7 @@
     <div class="container" style="width: 30%; text-align: center;">
         <h1 class="h1">로그인</h1>
         <!-- <form method="post" action="http://서버주소:서버포트/login"> -->
-        <form method="get" action="./main_page.html" class="row">
+        <form method="post" action="./main_page.html" class="row">
             <div class="form-group row">
                 <input class="form-input" type="text" id="id" name="id" placeholder="ID"> 
             </div>
@@ -41,10 +41,14 @@
 
     </div>
     </main>
-    <script src="bootstrap/bootstrap.min.js"></script>
-    <script src="js/createNavBar.js">
+    <script src="bootstrap/bootstrap.min.js">
     </script>
+    <script src="js/createNavBar.js">
+    </script>    
     <script src="js/validation.js">
+    </script>
+    <script>
+        //appendNav(navOption.DEFAULT);
     </script>
 </body>
 </html>
